@@ -16,7 +16,7 @@ as well as the Google’s Panoramio photo sharing service API http://www.panoram
 
 How its works?
 
-- Move around the map – Google maps
+- Move around the map – Google maps (You need your own Google Maps Api for extend the code and make your own testing. Enter it in res\layout\main.xml)
 - Select an area on the map (the geographical limit of the photos location is the map area shown in the device display)
 - Browse photos taken in that geographic location
 - When a photo is displayed it's possible get the photo details
