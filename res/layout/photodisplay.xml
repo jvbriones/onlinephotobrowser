@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>   
+    
+    <FrameLayout android:id="@+id/layoutzoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentTop="true" />
+    
+    <Button android:id="@+id/backSelectArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="3dp"
+		android:layout_alignParentLeft="true"
+   		android:text="@string/back_map_button"/>    
+    
+     
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="3dp"
+	    android:layout_alignParentRight="true"	    
+    	android:stretchColumns="3">  	
+	   
+	    <TableRow>   
+		    <Button android:id="@+id/infoPhotoButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"		   	    
+			android:layout_marginLeft="3dp"		   		       
+	   		android:text="@string/photo_info_button"/>    
+		        
+		    <Button android:id="@+id/prevPhotoButton"
+		   	android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	   		android:text="@string/prev_button"/>    
+		        
+		    <Button android:id="@+id/nextPhotoButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	   		android:text="@string/next_button"/>
+	    </TableRow> 	   
+  
+	</TableLayout>
+</RelativeLayout>
